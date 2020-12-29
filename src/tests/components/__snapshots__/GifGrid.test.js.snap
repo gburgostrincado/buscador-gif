@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas sobre el componente <GifGrid /> Debe mostrar correctamente <GifGrid /> 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+    Rick and Morty
+  </h3>
+  <p
+    className="animate__animated animate__flash"
+  >
+    Loading
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
+
+exports[`Pruebas sobre el componente <GifGrid /> debe de mostrar items cuando se cargan las imagenes useFetchGifs 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+    Rick and Morty
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="ABC"
+      key="ABC"
+      title="cualquier cosa"
+      url="https://localhost/cualquiercosa.jpg"
+    />
+    <GifGridItem
+      id="123"
+      key="123"
+      title="akljsdjhkajkd cosa"
+      url="https://localhost/kjhkh.jpg"
+    />
+  </div>
+</Fragment>
+`;
